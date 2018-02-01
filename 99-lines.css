@@ -1,0 +1,19 @@
+/*Style the page
+    * Set a background color on the page.
+    * Change the text color of the h1.
+    * Set a background color for class `friend`.
+    * Target the paragraphs inside the `friend` class div and make them uppercase using only CSS.
+    * You have stylistic freedom to make the page look good*/
+    body {
+        background-color: rgb(213, 67, 57);
+    }
+    h1 {
+        color: ivory;
+    }
+    .friends {
+        background-color: rgb(87, 161, 208)
+    }
+    .friends p {
+        text-transform: uppercase;
+        color: rgb(79, 84, 91);
+    }
