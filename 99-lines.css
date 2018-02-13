@@ -5,15 +5,30 @@
     * Target the paragraphs inside the `friend` class div and make them uppercase using only CSS.
     * You have stylistic freedom to make the page look good*/
     body {
-        background-color: rgb(213, 67, 57);
+        background-color: rgb(57, 213, 179);
     }
     h1 {
         color: ivory;
+        background-color: rgb(225, 110, 65);
     }
-    .friends {
-        background-color: rgb(87, 161, 208)
+    .friend {
+        background-color: rgb(11, 37, 53)
     }
-    .friends p {
+    .friend p {
         text-transform: uppercase;
-        color: rgb(79, 84, 91);
+        font-size: 2em;
+        color: rgb(184, 197, 211);
+    }
+    .singContainer {
+        text-align: center;
+        font-size: 3em;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .singButton {
+        font-size: 1em;
+        background-color: goldenrod;
+        color: ghostwhite;
+    }
+    .singButton:hover {
+        background-color: royalblue;
     }
